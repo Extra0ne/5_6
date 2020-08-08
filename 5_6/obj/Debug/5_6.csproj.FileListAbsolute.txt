@@ -1,0 +1,7 @@
+C:\Users\Polzovatel\source\repos\5_6\5_6\bin\Debug\5_6.exe.config
+C:\Users\Polzovatel\source\repos\5_6\5_6\bin\Debug\5_6.exe
+C:\Users\Polzovatel\source\repos\5_6\5_6\bin\Debug\5_6.pdb
+C:\Users\Polzovatel\source\repos\5_6\5_6\obj\Debug\5_6.csprojAssemblyReference.cache
+C:\Users\Polzovatel\source\repos\5_6\5_6\obj\Debug\5_6.csproj.CoreCompileInputs.cache
+C:\Users\Polzovatel\source\repos\5_6\5_6\obj\Debug\5_6.exe
+C:\Users\Polzovatel\source\repos\5_6\5_6\obj\Debug\5_6.pdb

@@ -8,17 +8,18 @@ namespace _5_6
 {
     class Program
     {
-        public enum DayOfWeek
+        public enum WeekDays
         {
-            Понедельник = 0,
-            Вторник = 1,
-            Среда = 2,
-            Четверг = 3,
-            Пятниццо = 4,
-            Суббота = 5,
-            Воскресенье = 6
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday,
         }
-        static void Main(string[] args)
+          
+    static void Main(string[] args)
         {
             Console.Write("Введите номер дня недели \n" +
                           "1-Понедельник \n" +
@@ -30,28 +31,29 @@ namespace _5_6
                           "7-Воскремеьне \n");
                                             
             int DayOfWeek;
-            DayOfWeek = int.Parse(Console.ReadLine());
+            DayOfWeek = Convert.ToInt32(Console.ReadLine());
+
             switch (DayOfWeek)
             {
-                case 0:
+                case (int)WeekDays.Monday:
                     Console.WriteLine("Понедельник");
                     break;
-                case 1:
+                case (int)WeekDays.Tuesday:
                     Console.WriteLine("Вторник");
                     break;
-                case 2:
+                case (int)WeekDays.Wednesday:
                     Console.WriteLine("Среда");
                     break;
-                case 3:
+                case (int)WeekDays.Thursday:
                     Console.WriteLine("Четверг");
                     break;
-                case 4:
+                case (int)WeekDays.Friday:
                     Console.WriteLine("Пятница");
                     break;
-                case 5:
+                case (int)WeekDays.Saturday:
                     Console.WriteLine("Суббота");
                     break;
-                case 6:
+                case (int)WeekDays.Sunday:
                     Console.WriteLine("Воскресение");
                     break;
                 default:
